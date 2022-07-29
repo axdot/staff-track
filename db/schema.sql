@@ -1,7 +1,3 @@
-DROP DATABASE IF EXISTS staff_track;
-CREATE DATABASE staff_track;
-USE staff_track;
-
 DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS roles;
 DROP TABLE IF EXISTS department;
@@ -20,11 +16,11 @@ CREATE TABLE roles (
 );
 
 CREATE TABLE employees (
-    id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    employee_id INTEGER AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     role_id INTEGER,
-    manager_id INTEGER,
-    CONSTRAINT fk_manager FOREIGN KEY (manager_id) REFERENCES employees(id) ON DELETE SET NULL,
-    CONSTRAINT fk_roles FOREIGN KEY (role_id) REFERENCES roles(roles_id) ON DELETE SET NULL
+    manager_id INTEGER DEFAULT NULL,
+    CONSTRAINT fk_roles FOREIGN KEY (role_id) REFERENCES roles(roles_id) ON DELETE SET NULL,
+    CONSTRAINT fk_manager FOREIGN KEY (manager_id) REFERENCES employees(employee_id) ON DELETE SET NULL
 );
