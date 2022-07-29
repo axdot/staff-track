@@ -25,6 +25,6 @@ VALUES
 ("Will", "Smith", 2, NULL),
 ("Harrison", "Ford", 4, NULL),
 ("Angelina", "Jolie", 7, NULL),
-("Julie", "Roberts", 10, NULL),
+("Julia", "Roberts", 10, NULL),
 ("Ben", "Affleck", 1, NULL),
 ("Danny", "Devito", 11, NULL);
