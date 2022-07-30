@@ -5,8 +5,6 @@
 
 This is a content management system (CMS) interface tool to help you create/manage a database of emploees.
 
-https://github.com/axdot/staff-track is where you can clone the repository.
-
 ## Video Walkthrough
 
 https://www.youtube.com/watch?v=s6sntHqI5rQ
@@ -23,11 +21,25 @@ https://www.youtube.com/watch?v=s6sntHqI5rQ
 
 ## Installation
 
-explain dotenv and include the three sources. dont forget npm i
+1. If you don't want to create a ".env" file, please enter your credentials to login to mysql into the connection.js file so that you can access databases on your own machine. If you're not sure how to do that, [Check this out!](https://dev.mysql.com/doc/mysql-getting-started/en/#mysql-getting-started-installing).
+
+2. ```npm install OR npm i``` to install the correct dependencies.
+
+3. Open terminal in the root of the project and enter ```mysql -u root -p```. Login with your mysql password to access the mysql command line interface (CLI).
+
+4. Enter each of these commands in order to create a database, create three tables (department, roles, employees), and give the tables some fake data. (If you don't want fake data and want to make your own, do not source the seeds.sql file!)
+
+```
+SOURCE db/db.sql;
+SOURCE db/schema.sql;
+SOURCE db/seeds.sql;
+quit;
+```
+5. You are all setup and ready to start seeing the program in action! If you want to see me do these steps, please follow along in the video walkthrough (I start on step 4 of these instructions.)
 
 ## Usage Instructions
 
-npm start to begin working!
+```npm start``` to start!
 
 ## License
   This project uses the MIT license.
