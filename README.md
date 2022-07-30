@@ -1,40 +1,47 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Staff Track 
 ## Description
 
-Use a simple command line application to create/manage your employees
+This is a content management system (CMS) interface tool to help you create/manage a database of emploees.
+
+https://github.com/axdot/staff-track is where you can clone the repository.
+
+## Video Walkthrough
+
+https://www.youtube.com/watch?v=s6sntHqI5rQ
 
 ## Table of Contents
    
 - [Installation](#installation)
-- [Usage](#usage)
+- [Usage](#usage-instructions)
 - [License](#license)
-- [Badges](#badges)
-- [Contribute](#contribute)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Contributions](#contributions)
+- [Test](#test-instructions)
+- [Contact](#contact)
+
 
 ## Installation
 
-You must have node installed. 
+explain dotenv and include the three sources. dont forget npm i
 
 ## Usage Instructions
 
-Type "npm start" in the command line to get started!
+npm start to begin working!
 
 ## License
   This project uses the MIT license.
 https://opensource.org/licenses/MIT
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Contributors
+## Contributions
 
-Chris Kimball
+Christopher Kimball
 
-## Test Instructions/How to test this Project
+## Test Instructions
 
-n/a
+There are no tests written for this project.
 
-## Questions
+## Contact
 Questions? Please email me at kimballc3@yahoo.com.
 Do you like this project and want to see what else I'm doing? Here is my Github: [axdot](https://github.com/axdot).
